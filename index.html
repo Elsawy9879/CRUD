@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="../CRUD/css/all.min.css">
+    <link rel="stylesheet" href="../CRUD/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CRUD/css/style.css">
+</head>
+
+<body>
+    <div class="w-75  m-auto py-5">
+        <label for="Product_Name">Product Name</label>
+        <input id="Product_Name" type="text" class="mb-3 form-control">
+        <label for="Product_Price">Product Price</label>
+        <input id="Product_Price" type="number" class="mb-3 form-control">
+        <label for="Product_Category">Product Category</label>
+        <input id="Product_Category" type="text" class="mb-3 form-control">
+        <label for="Product_Description">Product Description</label>
+        <textarea class="mb-3 form-control" id="Product_Description" cols="30" rows="10"></textarea>
+        <button onclick="AddNewProduct()" class="btn btn-outline-info">ADD PRODUCT</button>
+        <button onclick="CLEARFORM()" class="btn btn-outline-info">CLEAR</button>
+
+
+    </div>
+
+    <table class="table  table-striped">
+        <thead>
+
+            <tr>
+                <td>Product Name</td>
+                <td>Product Price</td>
+                <td>Product Category</td>
+                <td>Product Description</td>
+                <td>Delete</td>
+                <td>Update</td>
+
+
+            </tr>
+
+        </thead>
+
+        <tbody id="tbody">
+            <tr>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+    <script src="../CRUD/js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="../CRUD/js/popper.min.js"></script>
+    <script src="../CRUD/js/script.js"></script>
+</body>
+
+</html>
