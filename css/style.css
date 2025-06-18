@@ -1,0 +1,44 @@
+body {
+  background-color: #262728;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.btn-outline-info {
+  margin-right: 10px;
+}
+
+#mainBtn.btn-success {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+}
+
+#mainBtn.btn-success:hover {
+  background-color: #218838;
+}
+
+.table {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+thead tr {
+  background-color: #ffffff;
+  color: #fff;
+}
+
+#searchInput {
+  border: 2px solid #17a2b8;
+  padding: 10px;
+}
+
+#searchInput:focus {
+  border-color: #138496;
+  box-shadow: 0 0 5px rgba(19, 132, 150, 0.5);
+}
